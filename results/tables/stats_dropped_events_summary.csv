@@ -1,0 +1,9 @@
+analysis,reason,n_events
+paired_full_descriptive,all_differences_zero,798
+paired_full_descriptive,fewer_than_30_complete_pairs,748
+paired_train_only,fewer_than_30_complete_pairs,1780
+paired_train_only,all_differences_zero,880
+unpaired_full_descriptive,no_variation,332
+unpaired_full_descriptive,fewer_than_10_values_in_a_group,45
+unpaired_7site_sensitivity,no_variation,460
+unpaired_7site_sensitivity,fewer_than_10_values_in_a_group,45

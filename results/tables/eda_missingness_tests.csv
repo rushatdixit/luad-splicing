@@ -1,0 +1,4 @@
+comparison,H,p
+per-sample missingness ~ site (all samples),95.47098279842302,3.1125054990185075e-08
+per-sample missingness ~ class,8.505273039608953,0.0035411877122108375
+per-sample missingness ~ site (tumours only),83.39002123641659,1.8294841091728115e-06

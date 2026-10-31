@@ -1,0 +1,4 @@
+,patients,samples,tumour,normal,pairs,sites,samples_7site,normal_7site
+all,516,573,514,59,57,33,293,59
+test,102,113,102,11,11,28,57,11
+train,414,460,412,48,46,33,236,48

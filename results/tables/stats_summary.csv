@@ -1,0 +1,5 @@
+analysis,n_events,n_dropped_min_n,n_untestable_other,n_tested,n_fdr05,n_fdr05_absmedian_ge_0.1,n_fdr05_absmean_ge_0.1,n_fdr05_median_diff_exactly_0,n_fdr05_higher_in_tumour,n_fdr05_lower_in_tumour,min_fdr
+paired_full_descriptive,27836,748,798,26290,6101,1095,1261,375,2752,3349,4.670042130783259e-11
+paired_train_only,27836,1780,880,25176,5144,1062,1223,218,2287,2857,3.5777247830992563e-11
+unpaired_full_descriptive,27836,45,332,27459,11292,1522,1486,1256,5280,6012,1.8772813360102772e-41
+unpaired_7site_sensitivity,27836,45,460,27331,10175,1447,1471,1094,4739,5436,2.67610159549479e-31

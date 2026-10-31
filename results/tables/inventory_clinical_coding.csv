@@ -1,0 +1,14 @@
+field,n_tumour,n_blank,n_null,n_zero,n_valid,zero_means_missing,normals_nonblank,distinct_valid_values,usable
+Gender,514,0,0,0,514,False,0,2,True
+Age,514,0,0,19,495,True,0,53,True
+Height_cm,514,0,0,514,0,True,0,1,False
+Weight_kg,514,0,0,514,0,True,0,1,False
+Tumor_Status,514,0,97,0,417,False,0,2,True
+Vital_Status,514,0,0,0,514,False,0,2,True
+Pathologic_Tumor_Stage,514,0,8,0,506,False,0,9,True
+Pathologic_N,514,0,1,0,513,False,0,5,True
+Pathologic_T,514,0,0,0,514,False,0,9,True
+Absolute_Purity_Value,514,0,0,163,351,True,0,75,True
+Tissue_Specific_Attribute_1,514,0,514,0,0,False,0,0,False
+Tissue_Specific_Attribute_2,514,0,514,0,0,False,0,0,False
+Tissue_Specific_Attribute_3,514,0,514,0,0,False,0,0,False

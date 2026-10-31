@@ -1,0 +1,9 @@
+# Pinned to match environment.yml (conda env `luad-splicing`, Python 3.12.16). Prefer: conda env create -f environment.yml
+pandas==3.1.0
+numpy==2.5.4
+scipy==1.18.1
+statsmodels==0.15.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+pytest==9.2.0

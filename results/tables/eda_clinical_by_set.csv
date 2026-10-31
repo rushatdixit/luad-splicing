@@ -1,0 +1,4 @@
+set,n_tumours,age_n,age_median,age_q1,age_q3,female_frac,purity_n,purity_median,stage_I,stage_II,stage_III,stage_IV,stage_missing
+train,412,396,66.0,59.0,72.0,0.5388349514563107,280,0.44,225,95,68,19,5
+test,102,99,67.0,60.0,74.0,0.5294117647058824,71,0.44,49,27,16,7,3
+all,514,495,66.0,59.0,73.0,0.5369649805447471,351,0.44,274,122,84,26,8

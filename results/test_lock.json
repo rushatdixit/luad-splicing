@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-29T09:07:08.804812+00:00",
+  "protocol": "docs/analysis_plan.md \u00a7E; docs/decisions.md #20",
+  "sha256": {
+    "src/final_test.py": "c543a932431eac870209763790cb0516e027b1c196c26cb142064ca2a2038895",
+    "src/models.py": "b2fd893add5ecfd4f29bacee02b364b000957b1a16073d7797186550178831b9",
+    "src/eda_stats.py": "8b9b41da83d2bd4b0eb5760f9058a06d18aee769f56f67f9731f2111a18342ee",
+    "data/processed/splits.csv": "96d30208ee6f81ba160823b2e502a28cd9bca766476b3c327f1eb0d644296f2e",
+    "data/processed/psi_samples_x_events.csv.gz": "c4c259c636a6875cfa489c89e33f67e702eb33239a063e5d47119509c1de7628"
+  },
+  "fit_info": {
+    "main": {
+      "n_train_samples": 460,
+      "n_train_normals": 48,
+      "n_pairs": 46,
+      "n_eligible": 25765,
+      "n_passed_fdr": 5111,
+      "best_C_lr_l2": 0.001
+    },
+    "sensitivity": {
+      "n_train_samples": 453,
+      "n_train_normals": 48,
+      "n_pairs": 43,
+      "n_eligible": 25503,
+      "n_passed_fdr": 5322,
+      "best_C_lr_l2": 0.001
+    }
+  },
+  "completed_utc": "2026-10-29T09:07:16.837498+00:00",
+  "outputs_sha256": {
+    "results/tables/test_metrics.csv": "0efa3645fe66ace271a59cef9ccf53ec6631a76ea7af0c6a6536854e8eaddfb4",
+    "results/tables/test_predictions.csv": "821d9407052b5cef31ff0747c00e2cb82089525ead5869316e4decf4183551df"
+  }
+}

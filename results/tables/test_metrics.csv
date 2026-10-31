@@ -1,0 +1,6 @@
+analysis,model,n,n_normal,n_patients,roc_auc,roc_auc_ci_low,roc_auc_ci_high,pr_auc_normal,pr_auc_normal_ci_low,pr_auc_normal_ci_high,pr_auc_tumour,tn,fp,fn,tp,precision_tumour,recall_tumour,f1_tumour,specificity,bootstrap_resamples_skipped
+primary: main LR-L2,LR-L2 k=25,113,11,102,1.0,0.9999999999999999,1.0,1.0,0.9999999999999998,1.0,0.9999999999999999,11,0,1,101,1.0,0.9901960784313726,0.9950738916256158,1.0,0
+secondary: main RF,RF k=25,113,11,102,1.0,1.0,1.0,1.0,0.9999999999999998,1.0,1.0,11,0,0,102,1.0,1.0,1.0,1.0,0
+baseline: majority class,majority,113,11,102,0.5,0.5,0.5,0.09734513274336283,0.04672897196261682,0.15,0.9026548672566371,0,11,0,102,0.9026548672566371,1.0,0.9488372093023256,0.0,0
+"sensitivity: main LR-L2, test without TCGA_44_6146",LR-L2 k=25,112,11,102,1.0,1.0,1.0,1.0,0.9999999999999998,1.0,1.0,11,0,1,100,1.0,0.9900990099009901,0.9950248756218906,1.0,0
+"sensitivity: refit without site-44 cluster, test without TCGA_44_6146",LR-L2 k=25 (refit),112,11,102,1.0,0.9999999999999999,1.0,1.0,0.9999999999999998,1.0,1.0,11,0,1,100,1.0,0.9900990099009901,0.9950248756218906,1.0,0
